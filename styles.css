@@ -1,0 +1,197 @@
+:root{
+    --font-col: #fff;
+    --icon-color: #FF8033;
+    --bk-col1:#000;
+    --ft-col2:#00619C;
+    --sec-col:#ededed;
+    --font2:#676a6c;
+}
+
+.sec1{
+    background-image: url('/img/fondo_home_empresa_1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem 0;
+}
+.bb{
+    width: 200px;
+    border-top: 4px solid var(--icon-color);
+    margin: 1.5rem 0;
+}
+.cont-txt{
+    color: var(--font-col);
+    padding-top: 6rem;
+}
+i{
+    color: var(--icon-color);
+}
+.contacts{
+    background-color: var(--bk-col1);
+    width: 250px;
+    margin: 0 auto;
+    opacity: 0.7;
+    padding: 0 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.bodypage{
+    background-color:rgba(255,255,255,.8);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.posts h3{
+    color: var(--ft-col2);
+}
+.btn-reg{
+    background-color: var(--ft-col2);
+    color: var(--font-col);
+}
+
+/* sec2 */
+.slides{
+    padding: 4rem 2rem;
+}
+
+.slides h5, .txt3 h4{
+    color: var(--icon-color);
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: center;
+}
+.sec3{
+    background-color: var(--sec-col);
+    padding: 2rem;
+    color: var(--font2);
+}
+.cont-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem 1rem;
+}
+
+.job h5, .job p{
+    padding: 0.9rem 0;
+}
+
+.btn-job{
+    background-color: var(--icon-color);
+    color: var(--sec-col);
+    font-size: 20px;
+}
+.btn-job:hover{
+    background-color: rgb(207, 202, 202);
+    color: var(--font-col);
+}
+.button1{
+    padding: 2rem 0;
+}
+
+.bts .btn-more{
+    background-color: var(--ft-col2);
+    color: var(--font-col);
+    font-size: 20px;
+    /* width: 300px; */
+    /* margin:  0 auto; */
+}
+.jobamas h4{
+    color: var(--icon-color);
+    padding-top: 1rem;
+}
+.sec4{
+    padding: 3rem 2rem;
+    background-color: #dedede;
+}
+/* .text-container{
+    max-width: 80%;
+} */
+.grids, .contsq{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.free{
+    background-color: #CCC;
+    color: #666;
+}
+.NGN{
+    background-color: #666;
+    color: var(--font-col);
+}
+.cols{
+    background-color: var(--icon-color);
+}
+.txts{
+    background-color: var(--font-col);
+    color:var(--bk-col1) ;
+    padding: 1rem 0;
+}
+.btn-start{
+    background-color: var(--icon-color);
+    color: var(--font-col);
+}
+.last{
+    background-image: url(/img/back_registro.jpg);
+    padding: 2rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contents{
+    text-align: center;
+    background-color: rgba(43, 42, 42, 0.95);
+    color: white;
+    border-radius: 5px;
+    padding-bottom:2rem;
+}
+.bts1 {
+    padding: 1rem 0 3rem 0;
+}
+.ner h4 {
+    color: var(--icon-color);
+}
+.ner h5{
+    color: var(--font-col);
+    padding-bottom: 3rem;
+}
+
+@media screen and (max-width:767px){
+    .cont-grid, .grids, .contsq{
+        display: block;
+    }
+    .cont-first, .contents{
+        margin: 1.5rem 0;
+    }
+    .cont-txt h1{
+        font-size: 28px;
+    }
+    .cont-txt p{
+        font-size: 22px;
+    }
+    .contacts{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:1023px){
+    .cont-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grids{
+        width: 100%;
+    }
+    
+    .contsq{
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .conts-mar{
+        
+    }
+}
